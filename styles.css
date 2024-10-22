@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f4ff;
+}
+img{
+    width: 15%;
+    height: auto;
+}
+.container{
+    margin: 7%;
+    padding: 25px;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 0 10px gray;
+    border-radius:15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.header{
+  display: inline;
+}
+.leftside{
+    margin-top: 200px;
+}
+.rezume{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 150px);
+}
